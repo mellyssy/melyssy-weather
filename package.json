@@ -2,7 +2,11 @@
   "name": "melyssy-weather",
   "version": "1.0.0",
   "description": "cli app to check weather",
-  "main": "index.js",
+  "main": "weather.js",
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,5 +15,9 @@
     "weather"
   ],
   "author": "melyssy",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "chalk": "^5.0.0"
+  }
 }
