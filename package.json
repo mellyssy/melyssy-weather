@@ -16,6 +16,7 @@
   ],
   "author": "melyssy",
   "license": "ISC",
+  "repository": "github:mellyssy/melyssy-weather",
   "dependencies": {
     "axios": "^0.25.0",
     "chalk": "^5.0.0"
